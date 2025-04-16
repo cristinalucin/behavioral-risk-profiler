@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+collection==0.1.6
