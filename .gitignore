@@ -1,4 +1,26 @@
-env/
-__pycache__/
+# Ignore Python virtual environments
+venv/
+profiler_env/
+
+# Ignore compiled Python files
 *.pyc
-*.pkl
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large files and libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
